@@ -1,0 +1,61 @@
+*,*::before,*::after {
+	box-sizing: border-box;
+}
+a, a:link, a:visited, a:hover { 
+	text-decoration: none; 
+} 
+a {
+	display: inline-block;
+	text-decoration: none;
+  color: $color-black;
+}
+* {
+	// outline: 1px solid #5a7;
+}
+img {
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+body {
+	background-color: $color-main-bg;
+}
+
+.single-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.multiline-ellipsis { 
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.divider {
+	border-top: 1px solid $color-border;
+}
+.display-none {
+	display: none;
+}
+.display-block {
+	display: block;
+}
+.gradient-transparent-to-color-vertical {
+	position: relative;
+}
+.gradient-transparent-to-color-vertical::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-image: linear-gradient(to bottom, transparent, #fff);
+	height: 80px;
+}
+
+main {
+	padding: 80px 0;
+}
+

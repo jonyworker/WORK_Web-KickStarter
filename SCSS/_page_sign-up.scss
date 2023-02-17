@@ -1,0 +1,26 @@
+
+/*////////////////////////
+===== page - sign-up =====
+////////////////////////*/
+
+
+/*========= sign-up-form 個別設定 =========*/
+.user-account-content .user-account-form {
+  margin: 0 auto;
+  max-width: 400px;
+  background-color: $color-white;
+}
+
+.user-account-content .user-account-form .sign-up-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-top: 1px solid $color-border;
+}
+.user-account-content .user-account-form .sign-in-form {
+  padding: 20px;
+}
+
+
+

@@ -1,0 +1,62 @@
+
+
+
+/*//////////////////////////
+===== component - form =====
+/////////////////////////*/
+.input-item {
+  @include text-sm;
+}
+
+.input-item.inp-text input[type="text"] {
+  padding: 12px;
+  width: 100%;
+  border: 1px solid $color-border;
+}
+
+.input-item.inp-check {
+  display: flex;
+}
+
+.input-item.inp-submit input[type="submit"] {
+  // display: block;
+  padding: 12px;
+  width: 100%;
+  color: $color-white;
+  background-color: $color-primary-default;
+  border: none;
+}
+.terms {
+  @include text-xs;
+}
+a,
+#more-terms,
+#less-terms,
+#more-fb,
+#less-fb {
+  color: $color-link;
+}
+
+/*========= or-divider 個別設定 =========*/
+.or-divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.or-divider::before {
+  content: "";
+  height: 1px;
+  background-color: $color-border;
+  flex:1;
+  margin-right: 8px;
+}
+.or-divider::after {
+  content: "";
+  height: 1px;
+  background-color: $color-border;
+  flex:1;
+  margin-left: 8px;
+}
+
+

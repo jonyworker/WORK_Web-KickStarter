@@ -1,0 +1,19 @@
+
+/*////////////////////////////////
+===== component - breadcrumb =====
+////////////////////////////////*/
+
+
+.breadcrumb {
+  list-style: none;
+  @include text-sm;
+  color: $color-text-main;
+}
+.breadcrumb .breadcrumb-item {
+  display: inline;
+}
+.breadcrumb .breadcrumb-item+.breadcrumb-item::before {
+  content: "/\00a0";
+  padding: 4px;
+  color: $color-text-main;
+}

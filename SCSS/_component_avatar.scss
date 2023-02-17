@@ -1,0 +1,44 @@
+
+/*////////////////////////////
+===== component - avatar =====
+////////////////////////////*/
+
+
+.avatar {
+  display: flex;
+  gap: 6px;
+}
+.avatar .avatar-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.avatar .avatar-body {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.avatar-title-wrap {
+  display: flex;
+  gap: 4px;
+}
+.avatar-tag {
+  padding: 2px 6px;
+  border-radius: 2px;
+  background-color: $color-primary-default;
+}
+.avatar-title {
+  @include text-sm;
+}
+.avatar-text {
+  @include text-xs;
+}
+.avatar-tag-text {
+  @include text-xs;
+  color: $color-white;
+}
+.avatar-text-icon-wrap {
+  display: flex;
+  align-items: center;
+}

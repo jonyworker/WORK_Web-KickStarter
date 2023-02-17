@@ -1,0 +1,20 @@
+
+/*/////////////////////////////////
+===== component - progressBar =====
+////////////////////////////////*/
+
+
+.progress {
+  height: 6px;
+  background-color: #e7ebff;
+  border-radius: 50px;
+  overflow: hidden;
+  display: flex;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.progress .progress-bar {
+  // width: 75%;
+  background-color: $color-primary-default;
+}
